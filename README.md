@@ -7,18 +7,18 @@ TechStack:
 - Expo
 - Nativewind
 - Sentry
-- Zustand: state management(useState)
+- Zustand
 
 Libraries:
 
-- Flash List: instead of Flat list
+- Flash List
 - Reac Hook Form
 - RN MMKV
 - Legend List
 - ExpoI mage
 - Zeego
 - Clerk
-- Revenue Cat (payments)
+- Revenue Cat
 - Vision Camera
 - RN Gesture Handler
 
