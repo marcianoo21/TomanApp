@@ -44,8 +44,13 @@ export default function Slider({
     if (activeSide.value === Side.LEFT) {
       left.x.value = Math.max(x, MARGIN_WIDTH);
       left.y.value = y
-    } else {
-
+    } else if (activeSide.value === Side.RIGHT) {
+      right.x.value = Math.max(WIDTH - x, MARGIN_WIDTH);
+      right.y.value = y
+    }
+  }).onEnd(({x, velocityX, velocityY}) => {
+    if (activeSide.value === Side.LEFT) {
+      const dest = snapPoint(x, velocityX, )
     }
   })
 

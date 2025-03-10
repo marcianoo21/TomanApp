@@ -66,3 +66,7 @@ export const onBoardingSlides: onBoardingSlidesTypes[] = [
 export const MIN_LEDGE = 25;
 export const { width: WIDTH, height: HEIGHT } = Dimensions.get("screen");
 export const MARGIN_WIDTH = MIN_LEDGE + 50;
+export const PREV = WIDTH;
+export const NEXT = 0;
+export const LEFT_SNAP_POINT = [MARGIN_WIDTH, PREV]
+export const RIGHT_SNAP_POINT = [NEXT, WIDTH - MARGIN_WIDTH]
