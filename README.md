@@ -15,7 +15,7 @@ Libraries:
 - Reac Hook Form
 - RN MMKV
 - Legend List
-- ExpoI mage
+- Expo Image
 - Zeego
 - Clerk
 - Revenue Cat

@@ -1,5 +1,5 @@
 import { IsIPAD } from "@/themes/app.constant";
-import { Image } from "react-native"
+import { Dimensions, Image } from "react-native"
 import { verticalScale, scale } from "react-native-size-matters"
 //@ts-ignore
 import One from '@/assets/images/onboarding/1.png'
@@ -61,3 +61,8 @@ export const onBoardingSlides: onBoardingSlidesTypes[] = [
           "Achieve certification by completing courses with dedicated effort",
       },
     ];
+
+// onboarding variables
+export const MIN_LEDGE = 25;
+export const { width: WIDTH, height: HEIGHT } = Dimensions.get("screen");
+export const MARGIN_WIDTH = MIN_LEDGE + 50;
